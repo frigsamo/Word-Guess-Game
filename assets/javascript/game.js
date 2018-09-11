@@ -32,19 +32,19 @@ window.onload = function () {
                 }
                 if (indices.length == 1) {
                     showArray[indices[0]] = myKey;
-                    console.log(showArray);
+                  
                 } else {
                     indices.forEach(function (value) {
                         showArray[value] = myKey;
                     })
-                    console.log(showArray);
+                  
                 }
-                console.log(indices);
+                
 
             } else {
                 if (usedLettes.indexOf(myKey) == -1 && myKey != "Enter") {
-                    console.log(usedLettes)
-                    console.log(usedLettes.indexOf(myKey))
+                    
+                    
                     usedLettes.push(myKey);
                     count--;
                     document.getElementById('guesses').innerHTML = "<h2>" + usedLettes + "</h2>";
