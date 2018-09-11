@@ -1,12 +1,83 @@
-h1 {
-    color: blue;
+.logo{
+    font-size: 5em;
+    color: rgb(131, 127, 127);
+    text-decoration: none;
+    /* font-family: 'Dokdo', cursive; */
+    /* font-family: 'Rock Salt', cursive; */
+    /* font-family: 'Fontdiner Swanky', cursive; */
+    font-family: 'Nosifer', cursive;
+    text-shadow: 3px 3px 8px rgba(200, 179, 184, 1);
+    /* font-family: 'Metal Mania', cursive; */
+    margin-top: 30px;
+    margin-bottom: -30px;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+h2 {
+    margin: 0 auto;
+}
+
+.textDec {
+    text-align: center;
+}
+
+.pInline {
+    display:inline;
+}
+
 p {
     display: inline-block;
     
     margin-right: 10px;
     width: 5px;
+}
+
+body {
+    background: white;
+    color:rgb(189, 179, 179);
     
-    
-    
+    font-family: 'Metal Mania', cursive;
+   
+}
+
+div.alrGuesses h2{
+    margin-left: 15px;
+ 
+}
+
+#myBorder {
+    border-left: 5px dotted red;
+}
+.myhight {
+    height: 100%;
+}
+
+.centeImage {
+    display: flex;
+    justify-content: center;
+}
+
+.showWord {
+    display: flex;
+    justify-content: center;
+}
+
+.alert {
+    padding: 1px;
+    width: 20%;
+}
+
+.showAlert {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#myImg {
+    width: 300px;
 }
