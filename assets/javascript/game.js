@@ -68,7 +68,7 @@ window.onload = function () {
             if (count == 0) {
                 usedLettes = [];
                 showArray = [];
-                document.getElementById("myImg").src = "assets/images/finalsupa.png";
+                document.getElementById("myImg").src = "assets/images/final.png";
                 document.getElementById('guesses').innerHTML = "";
                 count = 15;
                 
